@@ -95,6 +95,13 @@ function App() {
                       <p className="text-lg md:text-xl text-white mb-8 drop-shadow">
                         Grãos arábica selecionados, moídos na hora e preparados com maestria. Aroma envolvente e sabor inesquecível!
                       </p>
+                       <p className="text-lg md:text-xl text-white mb-8 drop-shadow">
+                        Grãos arábica selecionados, moídos na hora e preparados com maestria. Aroma envolvente e sabor inesquecível!
+                      </p>
+                       <p className="text-lg md:text-xl text-white mb-8 drop-shadow">
+                        Grãos arábica selecionados, moídos na hora e preparados com maestria. Aroma envolvente e sabor inesquecível!
+                      </p>
+                      
                       <div className="flex gap-4 mb-8">
                         <Link
                           to="#pedido"
