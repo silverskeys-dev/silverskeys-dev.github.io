@@ -44,7 +44,7 @@ function App() {
         </div>
         <nav className="flex gap-6">
           <Link to="/contato" className="hover:underline font-semibold text-white">jogo</Link>
-          <Link to="/sobre" className="hover:underline font-semibold text-white">Sobre Nós</Link>
+          <Link to="/sobre" className="hover:underline font-semibold text-white">Brabo</Link>
         </nav>
       </header>
 
