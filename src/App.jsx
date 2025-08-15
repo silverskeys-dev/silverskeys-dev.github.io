@@ -43,7 +43,7 @@ function App() {
           <Link to="/" className="text-2xl font-bold hover:underline text-white">Cafe da Praça</Link>
         </div>
         <nav className="flex gap-6">
-          <Link to="/contato" className="hover:underline font-semibold text-white">Contatos</Link>
+          <Link to="/contato" className="hover:underline font-semibold text-white">jogo</Link>
           <Link to="/sobre" className="hover:underline font-semibold text-white">Sobre Nós</Link>
         </nav>
       </header>
