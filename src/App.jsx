@@ -6,6 +6,10 @@ import cofesImg from "./images/cofes.png";
 import cofes2Img from "./images/cofes2.png"; // Importa a nova imagem
 import cofes3Img from "./images/cofes3.png";
 import logoImg from "./images/logo.png";
+import emojiImg from "./images/emoji.png"; // ajuste o caminho conforme sua imagem
+import graoImg from "./images/grao.png";
+import medalImg from "./images/medal.png";
+import timeImg from "./images/time.png";
 
 function App() {
   const [form, setForm] = React.useState({
@@ -43,8 +47,8 @@ function App() {
           <Link to="/" className="text-2xl font-bold hover:underline text-white">Cafe da Praça</Link>
         </div>
         <nav className="flex gap-6">
-          <Link to="/contato" className="hover:underline font-semibold text-white">jogo</Link>
-          <Link to="/sobre" className="hover:underline font-semibold text-white">Brabo</Link>
+          <Link to="/contato" className="hover:underline font-semibold text-white">Contato</Link>
+          <Link to="/sobre" className="hover:underline font-semibold text-white">Sobre Nós</Link>
         </nav>
       </header>
 
@@ -201,24 +205,28 @@ function App() {
                 {/* Quatro quadrados informativos */}
                 <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-4 gap-6 mt-12 px-4">
                   <div className="bg-gray-100 rounded-lg shadow p-6 flex flex-col items-center text-center transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl">
+                    <img src={emojiImg} alt="Emoji coração" className="mb-2 w-10 h-10" />
                     <h5 className="text-lg font-bold mb-2 text-gray-900">Feito com Amor</h5>
                     <p className="text-gray-700 text-sm">
                       Cada xícara é preparada com grãos selecionados e carinho artesanal.
                     </p>
                   </div>
                   <div className="bg-gray-100 rounded-lg shadow p-6 flex flex-col items-center text-center transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl">
+                    <img src={graoImg} alt="Grão de café" className="mb-2 w-10 h-10" />
                     <h5 className="text-lg font-bold mb-2 text-gray-900">Ingredientes Frescos</h5>
                     <p className="text-gray-700 text-sm">
                       Grãos de café arábica de alta qualidade e leite fresco da região.
                     </p>
                   </div>
                   <div className="bg-gray-100 rounded-lg shadow p-6 flex flex-col items-center text-center transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl">
+                    <img src={medalImg} alt="Medalha" className="mb-2 w-10 h-10" />
                     <h5 className="text-lg font-bold mb-2 text-gray-900">Receita Exclusiva</h5>
                     <p className="text-gray-700 text-sm">
                       Blend especial desenvolvido para oferecer equilíbrio perfeito entre aroma e sabor.
                     </p>
                   </div>
                   <div className="bg-gray-100 rounded-lg shadow p-6 flex flex-col items-center text-center transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl">
+                    <img src={timeImg} alt="Tempo/Fresco" className="mb-2 w-10 h-10" />
                     <h5 className="text-lg font-bold mb-2 text-gray-900">Sempre Fresco</h5>
                     <p className="text-gray-700 text-sm">
                       Café moído e preparado na hora para garantir intensidade e frescor incomparáveis.
@@ -366,8 +374,8 @@ function App() {
                     <ul className="text-sm space-y-1">
                       <li><Link to="/" className="hover:underline">Início</Link></li>
                       <li><Link to="/sobre" className="hover:underline">Sobre Nós</Link></li>
-                      <li><a href="#galeria" className="hover:underline">Galeria</a></li>
-                      <li><a href="#depoimentos" className="hover:underline">Depoimentos</a></li>
+                      <li><a href="#galeria" className="hover:underline"></a></li>
+                      <li><a href="#depoimentos" className="hover:underline"></a></li>
                       <li><a href="#pedido" className="hover:underline">Fazer Pedido</a></li>
                     </ul>
                   </div>
@@ -457,7 +465,7 @@ function App() {
                     <li><Link to="/" className="hover:underline">Início</Link></li>
                     <li><Link to="/sobre" className="hover:underline">Sobre Nós</Link></li>
                     <li><a href="#galeria" className="hover:underline">Galeria</a></li>
-                    <li><a href="#depoimentos" className="hover:underline">Depoimentos</a></li>
+                    <li><a href="#depoimentos" className="hover:underline"></a></li>
                     <li><a href="#pedido" className="hover:underline">Fazer Pedido</a></li>
                   </ul>
                 </div>

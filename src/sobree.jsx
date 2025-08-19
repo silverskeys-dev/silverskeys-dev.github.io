@@ -114,8 +114,8 @@ export default function Sobree() {
             <ul className="text-sm space-y-1">
               <li><Link to="/" className="hover:underline">Início</Link></li>
               <li><Link to="/sobre" className="hover:underline">Sobre Nós</Link></li>
-              <li><a href="#galeria" className="hover:underline">Galeria</a></li>
-              <li><a href="#depoimentos" className="hover:underline">Depoimentos</a></li>
+              <li><a href="#galeria" className="hover:underline"></a></li>
+              <li><a href="#depoimentos" className="hover:underline"></a></li>
               <li><a href="#pedido" className="hover:underline">Fazer Pedido</a></li>
             </ul>
           </div>
